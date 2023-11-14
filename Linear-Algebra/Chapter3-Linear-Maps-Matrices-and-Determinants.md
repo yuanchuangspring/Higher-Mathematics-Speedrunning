@@ -9,7 +9,7 @@
 3. A linear map f is completely determined by its images at the unit vectors:
    * 这句话指的是f定义域中的任一向量都可以由单位向量表出，所以$f(\alpha)可以由f(\epsilon_i)$表示，由此我们可以将线性映射转变为矩阵的形式。详见第四条。
 4. 线性映射的矩阵表示：
-   * 首先，我们设$V_1$中的单位向量为$\epsilon_1···\epsilon_n$，而$V_2$中的单位向量为$\epsilon_1'···\epsilon_m'$，则每一个$f(\epsilon_i)$都可以用$\epsilon_j'$表示，具体如下：
+   * 首先，我们设$V_1$中的单位向量为$\epsilon_1···\epsilon_n$，而$V_2$中的单位向量为$\epsilon_1'···\epsilon_m'$，则每一个$f(\epsilon_i)$都可以用$\epsilon_j'$表示，具体如下：\
         $$
         f(x) = \begin{cases}f(\epsilon_1)=(\alpha11,\alpha21,···,\alpha m1)=\alpha11\epsilon_1'+···+\alpha m1\epsilon_m',\\
         \dots\\
