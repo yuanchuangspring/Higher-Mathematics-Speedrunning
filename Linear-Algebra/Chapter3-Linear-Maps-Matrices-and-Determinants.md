@@ -4,7 +4,7 @@
 1. 基本定义：一个映射如果满足以下条件：
    1. $f(k\alpha)=kf(\alpha)$
    2. $f(\alpha_1+\alpha_2)=f(\alpha_1)+f(\alpha_2)$\
-    则称该映射为线性映射。注意，一般做题时，只需判断$f(k_1\alpha_1+k_2\alpha_2)=k_1f(\alpha_1)+k_2f(\alpha_2)即可$
+    则称该映射为线性映射。注意，一般做题时，只需判断$f(k_1\alpha_1+k_2\alpha_2)=k_1f(\alpha_1)+k_2f(\alpha_2)$即可
 2. 线性变换 linear transformation：对于$V_1$到$V_2$的映射，如果$V_1=V_2$，则称该映射为线性变换
 3. A linear map f is completely determined by its images at the unit vectors:
    * 这句话指的是f定义域中的任一向量都可以由单位向量表出，所以$f(\alpha)可以由f(\epsilon_i)$表示，由此我们可以将线性映射转变为矩阵的形式。详见第四条。
